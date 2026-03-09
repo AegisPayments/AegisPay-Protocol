@@ -13,6 +13,14 @@ AegisPay is a multi-layered decentralized payment protocol. We have two main rep
 - [aegispay-contracts](#1-the-singleton-ledger-smart-contracts)
 - [aegis-cre](#2-the-ai-risk-engine-chainlink-cre)
 
+#### 🔗 Chainlink CRE Integration Files
+
+* **[main.ts](https://github.com/AegisPayments/aegis-cre/blob/main/aegis-workflow/main.ts):** 
+* **[secure-increment.ts](https://github.com/AegisPayments/aegis-cre/blob/main/aegis-workflow/cre-callbacks/http-callback/secure-increment.ts):** 
+* **[authorize.ts](https://github.com/AegisPayments/aegis-cre/blob/main/aegis-workflow/cre-callbacks/http-callback/authorize.ts):**
+* **[captured-funds.ts](https://github.com/AegisPayments/aegis-cre/blob/main/aegis-workflow/cre-callbacks/log-callbacks/captured-funds.ts):**
+* **[funds-released.ts](https://github.com/AegisPayments/aegis-cre/blob/main/aegis-workflow/cre-callbacks/log-callbacks/funds-released.ts):**
+
 And a frontend demo:
 
 - [aegisweb](#3-the-interactive-demo-frontend)
